@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
   background-image: url('Abstract-pictures-explosion-brightness-colors_2560x1440.jpg');
@@ -77,7 +78,7 @@ body {
   width: 40px;
   height: 40px;
   background-color: white;
-  margin: 2px;
+  
 }
 
 .selected {
@@ -90,7 +91,7 @@ body {
   margin-left: auto;
   margin-top: 50px;
   padding: 9px 9px;
-  width: 30px;
+  width: 50px;
 }
 #generate-board{
   margin-left: 10px;
@@ -104,5 +105,4 @@ body {
   display: flex;
   margin-left: auto;
   margin-right: auto;
-
 }
